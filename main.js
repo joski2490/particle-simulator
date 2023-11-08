@@ -53,7 +53,7 @@
   };
   yellow = create(200, "gold");
   red = create(200, "salmon");
-  green = create(0, "teal");
+  green = create(100, "teal");
 
   update = () => {
 //    rule(green, green, -0.32);

@@ -56,13 +56,13 @@
   green = create(100, "teal");
 
   update = () => {
-//    rule(green, green, -0.32);
-//    rule(green, red, -0.17);
-//    rule(green, yellow, 0.34);
-//    rule(red, red, -0.1);
-//    rule(red, green, -0.34);
-//    rule(yellow, yellow, 0.15);
-//    rule(yellow, green, -0.2);
+      rule(green, green, -0.32);
+      rule(green, red, -0.17);
+      rule(green, yellow, 0.34);
+      rule(red, red, -0.1);
+      rule(red, green, -0.34);
+      rule(yellow, yellow, 0.15);
+      rule(yellow, green, -0.2);
       rule(yellow,red,0.01)
       rule(red,yellow,-0.01)
       rule(red,red,-0.1)

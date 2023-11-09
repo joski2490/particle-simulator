@@ -66,7 +66,7 @@
       rule(yellow,red,0.01)
       rule(red,yellow,-0.01)
       rule(red,red,-0.1)
-    m.clearRect(0, 0, 500, 500);
+    m.clearRect(0, 0, 700, 700);
     draw(0, 0, "black", 500);
     for (i = 0; i < particles.length; i++) {
       draw(particles[i].x, particles[i].y, particles[i].color, 5);
